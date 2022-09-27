@@ -6,7 +6,7 @@ from numpy import array
 from numpy import linalg
 from numpy.linalg import matrix_power
 
-path = '/Users/User/Desktop/projeto_Tiago/bb21a10summarytables.xlsx'
+path = 'path'
 # Input output table
 df = pd.read_excel(path,sheet_name = 22, usecols = "C:L", header = None, skiprows = 52, nrows = 10)
 z = np.array(df,dtype = float) # £ million
@@ -15,7 +15,7 @@ dfx = pd.read_excel(path, sheet_name = 22, usecols = "C:L", header = None, skipr
 x = np.array(dfx, dtype = float)[0] # £ million
 
 
-pathe = '/Users/User/Desktop/projeto_Tiago/ghgintensity_uk.xlsx'
+pathe = 'path'
 dfem = pd.read_excel(pathe, sheet_name = 0, usecols = "B:X", skiprows = 1, header = None, nrows = 10)
 E = np.array(dfem, dtype = float) #Thousand tonnes CO2 /£ million
 
