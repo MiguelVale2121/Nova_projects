@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 
 def getio (year):
-    path = 'C:/Users/User/Downloads/bb21a10summarytables.xlsx'
+    path = 'path'
     # Input output table
     df = pd.read_excel(path,
                             sheet_name = str(year),
